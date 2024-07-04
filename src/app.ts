@@ -8,6 +8,7 @@ class App {
     this.app = express();
     this.setupRoutes();
     this.middleware();
+    console.log("test");
   }
 
   setupRoutes() {
